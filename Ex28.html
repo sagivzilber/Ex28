@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td><button id="btn1" onclick="onBtn1Click()">עצירת ביצוע</button></td>
+        <td>בכל שלוש שניות התמונה תוצג או תוסתר</td>
+        <td>
+          <img id="img1" src="images/1.jpg" height="150" width="150" />
+        </td>
+      </tr>
+      <tr>
+        <td><button id="btn2" onclick="onBtn2Click()">עצירת ביצוע</button></td>
+        <td>בכל שניה יוחלפו שתי התמונות - התמונה מימין תופיע משמאל ולהיפך</td>
+        <td>
+          <img id="img2" src="images/2.jpg" height="150" width="150" />
+          <img id="img3" src="images/3.jpg" height="150" width="150" />
+        </td>
+      </tr>
+      <tr>
+        <td><button id="btn3" onclick="onBtn3Click()">עצירת ביצוע</button></td>
+        <td>
+          בכל שתי שניות יתווסף רכיב תמונה עם תמונה שונה לתא במסגרת האדומה. הביצוע יופסק לאחר הוספת 5
+          תמונות
+        </td>
+        <td id="td33" style="border: 1px dotted red"></td>
+      </tr>
+      <tr>
+        <td><button id="btn4" onclick="onBtn4Click()">עצירת ביצוע</button></td>
+        <td>בכל 3 שניות הערך של התא יגדל ב3.</td>
+        <td><input id="input43" type="text" value="2" /></td>
+      </tr>
+      <tr>
+        <td><button id="btn5" onclick="onBtn5Click()">עצירת ביצוע</button></td>
+        <td>בכל 4 שניות ישתנה צבע הרקע של הדף</td>
+        <td>
+          <select id="select53">
+            <option value="red">אדום</option>
+            <option value="green">ירוק</option>
+            <option value="blue">כחול</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><button id="btn6" onclick="onBtn6Click()">עצירת ביצוע</button></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <script src="Ex28.js"></script>
+  </body>
+</html>
